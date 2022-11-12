@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/snowflake.ico">
     <link rel="icon" type="image/png" href="/snowflake.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <title>标签 - 原创 - Ninnaneve</title>
+    <title>如何利用Github搭建图床 - Ninnaneve</title>
     
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     
@@ -16,7 +16,7 @@
     <meta name="description" content="Ninnaneve">
     <meta name="author" content="Nina Ling">
     <meta name="keywords" content="">
-    <meta property="og:title" content="标签 - 原创"/>
+    <meta property="og:title" content="如何利用Github搭建图床"/>
     <style>
 
 
@@ -438,29 +438,208 @@ header .header__right .dropdown-menus .dropdown-menu {
             
 
 <article class="page">
-  <div class="archive-list">
-    <p class="h4">共计 2 篇文章</p>
-    <hr>
+<div id="post-meta-m">
+    <div class="post-meta" id="post-meta">
+  <h3>如何利用Github搭建图床</h3>
+    
+      <span class="post-meta-label">
+        Nina Ling
+      </span>
+    
+    
+      <span class="post-meta-label">
+        <span class="p-dot"></span>
+        <time datetime="2022-11-12 22:56" pubdate>
+          2022-11-12
+        </time>
+      </span>
     
     
       
+      <span class="post-meta">
+        <span class="p-dot"></span>
+        共 258 字
+      </span>
+    
+    
+      
+      <span class="post-meta">
+        <span class="p-dot"></span>
         
-        <p class="h5">2022</p>
-      
-      <a href="/2022/11/12/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" class="list-group-item list-group-item-action">
-        <span class="archive-post-title">如何利用Github搭建图床</span>
-        <time style="float: right;">11-12</time>
-      </a>
+        预计 
+        2
+         分钟
+      </span>
+    
     
       
-      <a href="/2022/11/12/article/" class="list-group-item list-group-item-action">
-        <span class="archive-post-title">test article</span>
-        <time style="float: right;">11-12</time>
-      </a>
+      <span class="post-meta">
+        <span class="p-dot"></span>
+        <span id="busuanzi_container_page_pv">
+          共 <span id="busuanzi_value_page_pv"></span> 次阅读
+        </span>
+      </span>
+    
+  </div>
+  
+</div>
+<div class="article-m">
+  <div class="post-toc">
+    
+      
+    
+  </div>
+    <div id="article">
+      <div id="post-content" class="markdown-body textretty">
+        <ol>
+<li><p>新建一个仓库，作为保存图的仓库</p>
+</li>
+<li><p>在Github 创建一个 token</p>
+<p>点击头像，然后打开 <code>Settings -&gt; Developer settings -&gt; Personal access tokens</code>，最后点击 <code>generate new token</code>，填写用途(Note)并勾选repo，然后点击 <code>Genetate token</code> 即可</p>
+<blockquote>
+<p> 注意：<code>token</code> 生成后只会显示一次，所以最好把它复制下来到备忘录存好，方便下次使用</p>
+</blockquote>
+</li>
+<li><p>配置 PicGo</p>
+<p>打开 <code>图床设置 -&gt; Github 图床</code>，设定仓库名为刚才创建的仓库名（用户名&#x2F;仓库名），设定分支名默认为main，设定Token为刚创建的Token，指定存储路径留空，设定自定义域名可以留空，为了加快图片的访问速度，使用了 CDN，按这样格式填写：<code>https://cdn.jsdelivr.net/gh/用户名/仓库名</code>。最后点击 <code>确定</code>即可，要将其作为默认图床的话，点击设为默认图床</p>
+</li>
+<li><p>上传图片测试，可以通过Picgo的上传区上传或快捷方式（默认上传键为 <code>Ctrl + Shift + P</code>）上传</p>
+</li>
+</ol>
+
+      </div>
+    </div>
+</div>
+
+<div class="post-category">
+
+    <div id="p-meta-i">
+        
+              
+                <a class="hover-with-bg" href="/categories/Git/">Git</a>
+              
+          
+          
+              
+                <a class="hover-with-bg" href="/tags/%E5%8E%9F%E5%88%9B/"># 原创</a>
+              
+          
+    </div>
+</div>
+
+
+<div class="post-footer">
+  
+
+  <div class="post-copyright">
+    <p style="margin: 5px 0;">文章作者：<a href="/">Nina Ling</a></p>
+    <p style="margin: 5px 0;">文章链接：<a href="http://ninnaneve.github.io/2022/11/12/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/">http://ninnaneve.github.io/2022/11/12/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</a></p>
+    <p style="margin: 5px 0;">版权声明：本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处，谢谢。</p>
+  </div>
+  
+</div>
+
+    <!-- Comments -->
+    <div class="comments">
+        
+        
+  <div id="miracle-comments">
+    <div id="waline">
+      <div style="margin: 0 auto;width: 100%;text-align: center;">
+        <div class="donutSpinner" style="margin: auto;width: 25px;height: 25px;"><div></div></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var walineLocale = {
+        nick: '昵称',
+        mail: '邮箱',
+        link: '网址',
+        placeholder: '有什么想法和需求，可以留个言哈',
+        sofa: "来发评论吧~",
+        submit: "发送",
+        comment: "评论",
+        more: "加载更多",
+        uploading: "上传中...",
+        login: '登录',
+        admin: "博主",
+        word: "字",
+        nickError: "昵称不能少于 3 个字符",
+        mailError: "请填写正确的邮箱地址",
+        wordHint: '评论字数应在 $0 到 $1 字之间！\n当前字数：$2',
+        seconds: '秒前',
+        minutes: '分钟前',
+        hours: '小时前',
+        days: '天前',
+        now: '刚刚',
+    };
+    function loadComment() {
+      loadScriptFile({
+        url: "https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js",
+        loadType: "async",
+        cb: () => {
+          new Waline({
+            el: '#waline',
+            serverURL: 'waline-repository-hiksxv3sa-ninnaneve.vercel.app',
+            path: window.location.pathname,
+            avatar: 'mp',
+            meta: ["nick","mail","link"],
+            pageSize: 10,
+            locale: walineLocale,
+            highlight: true,
+            avatarCDN: "",
+            avatarForce: false,
+            dark: 'html[data-theme="dark"]',
+            requiredMeta: ["nick","mail"],
+            login: 'enable',
+            uploadImage: function (file) {
+              const formData = new FormData();
+              formData.append('image', file);
+              return fetch('https://7bu.top/api/upload', {
+                method: 'POST',
+                body: formData,
+                mode: 'cors'
+              }).then(resp => resp.json()).then(resp => resp.data.url);
+            },
+            emoji: [
+              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq'
+            ],
+          });
+        }
+      });
+    }
+    
     
 
-</div>
+
+    var runningOnBrowser = typeof window !== "undefined";
+
+    var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+
+    var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+
+    setTimeout(function () {
+      if (!isBot && supportsIntersectionObserver) {
+        var observer = new IntersectionObserver(function (entries) {
+          if (entries[0].isIntersecting) {
+            loadComment();
+            observer.disconnect();
+          }
+        }, { threshold: [0] });
+        observer.observe(document.getElementById('miracle-comments'));
+      } else {
+        loadComment();
+      }
+    }, 1);
+  </script>
+  
+    </div>
+
 </article>
+
+
         </div>
         
 <footer class="text-center">
@@ -477,6 +656,8 @@ header .header__right .dropdown-menus .dropdown-menu {
 </footer>
 
 <div class="p-btn">
+    
+        <a class="toc-btn" id="toc-btn"><i id="i-menu"></i></a>
     
     <a href="#top" class="click-btn">
       <i id="i-up"></i>
@@ -512,8 +693,50 @@ header .header__right .dropdown-menus .dropdown-menu {
 </script>
 
 
+<script>
+    var postImg = document.querySelectorAll("article[class=page] img");
+    for (let imgi = 0; imgi < postImg.length; imgi++) {
+        postImg[imgi].onclick = () => {
+            let zoomImg = document.createElement("div");
+            zoomImg.id = "zoomImg";
+            zoomImg.innerHTML = `<div id="zoom-picture"></div>
+    <div class="poptrox-overlay"
+        style="position: fixed; left: 0px; top: 0px; z-index: 20000; width: 100%; height: 100%; text-align: center; cursor: zoom-out; opacity: 1;">
+        <div style="display:inline-block;height:100%;vertical-align:middle;"></div>
+        <div
+            style="position:absolute;left:0;top:0;width:100%;height:100%;background:#000000;opacity:0;filter:alpha(opacity=0);">
+        </div>
+        <div class="poptrox-popup"
+            style="display: inline-block; vertical-align: middle; position: relative; z-index: 1; cursor: zoom-out; min-width: 10px; min-height: 10px; width: auto; height: auto;">
+            <div class="loader" style="display: none;"></div>
+            <div class="pic" style="text-indent: 0px;"><img
+                    src="${ postImg[imgi].srcset || postImg[imgi].src }" alt="Loading..."
+                    style="vertical-align: bottom; max-width: 85vw; max-height: 85vh;"></div>
+        </div>
+    </div>`;
+            document.body.appendChild(zoomImg);
+                document.querySelector("#zoomImg").onclick = () => {
+                    document.querySelector("#zoomImg").remove();
+                }
+        }
+    }
+    
+</script>
 
 
+
+
+    <script>
+        query("#toc-btn")[0].onclick = () => {
+            if (query(".post-toc")[0].innerHTML) {
+                toggleClass(".post-toc", "display-inline");
+            }
+        }
+
+        if (!query(".post-toc")[0].innerHTML) {
+            addClass("#toc-btn","display-none");
+        }
+    </script>
 
 
 
